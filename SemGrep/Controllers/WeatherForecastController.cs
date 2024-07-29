@@ -13,6 +13,8 @@ public class WeatherForecastController : ControllerBase
 
     private readonly ILogger<WeatherForecastController> _logger;
 
+     public string SemGrepToken = "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"; 
+
     public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
         _logger = logger;
